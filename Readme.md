@@ -5,4 +5,7 @@ dockerfile-maven-plugin is used to build the app itself and the docker image
 
 
 # Run docker
-- docker run -itd -p 5000:8080 ropasoft/spring-boot-demo
+- docker run -itd -p 5000:8080 <image-id>
+
+# Log in
+- docker exec -it <container-id> sh
